@@ -2,8 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+plt.rc('font', family='NanumGothic')
 from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import StandardScaler
+
 
 # 1. 페이지 설정
 st.set_page_config(page_title="당뇨병 예측 실험실", layout="wide")
