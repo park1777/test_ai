@@ -43,7 +43,7 @@ if st.button("예측 분석 시작"):
     
     # 시각화
     fig, ax = plt.subplots()
-    ax.bar(['정상', '당뇨병'], [1-prob, prob], color=['#3498db', '#e74c3c'])
+    ax.bar(["정상", "당뇨병"], [1-prob, prob], color=['#3498db', '#e74c3c'])
     st.pyplot(fig)
     
     st.success("데이터 분석 완료!")
